@@ -37,6 +37,8 @@ id = 42
 
 ## Az Intersection típus
 
+Az & karater segítségével két típust megadok. 
+
 ```typescript
 type Szemely = { nev: string }
 type Alkalmazott = { dolgozoAzonosito: number }
@@ -50,6 +52,9 @@ const anna: Dolgozo = {
 ```
 
 A Dolgozo típusú anna objektumnak mindkét tulajdonságot tartalmaznia kell.
+
+Primitív típus így nem adható meg, mivel egyszerre nem lehet valami,
+például string és number.
 
 ## A literal típus
 
