@@ -49,7 +49,7 @@ const anna: Dolgozo = {
 }
 ```
 
-A Dolgozo tipusú anna objektumnak mindkét tulajdonságot tartalmaznia kell.
+A Dolgozo típusú anna objektumnak mindkét tulajdonságot tartalmaznia kell.
 
 ## A literal típus
 
@@ -83,7 +83,8 @@ id = 42
 
 ## ❖ Az interface
 
-Az interface segítségével leírhatjuk egy objektum milyen tulajdonságokat és metódusokat tartalmazhat.
+Az interface segítségével leírhatjuk egy objektum milyen tulajdonságokat
+és metódusokat tartalmazhat.
 
 ```typescript
 interface Dolgozok {
