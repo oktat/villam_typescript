@@ -1,0 +1,20 @@
+\usepackage{newunicodechar}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{framed}
+
+\newfontfamily\symbolfont{DejaVu Sans}
+\newunicodechar{❖}{{\symbolfont ❖}}
+
+\gdef\chaptertitlename{Fejezet}
+
+\newfontfamily\headingfont{Liberation Sans}
+
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries\headingfont}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+\titleformat{\section}
+  {\normalfont\Large\bfseries\headingfont}{\thesection}{1em}{}
+\titleformat{\subsection}
+  {\normalfont\large\bfseries\headingfont}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}
+  {\normalfont\normalsize\bfseries\headingfont}{\thesubsubsection}{1em}{}
