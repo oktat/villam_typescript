@@ -68,6 +68,9 @@ allapot = "siker"
 //Hibás: allapot = "kész"
 ```
 
+Az **allapot** nevű változó csak a "betöltés", "siker" vagy
+a "hiba" értékeket veheti fel.
+
 ## Típusálnév
 
 Típusalias vagy típusálnév egy meglévő típusnak adunk egy másik nevet.
