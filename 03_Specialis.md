@@ -28,6 +28,7 @@ ertek = 3
 ```
 
 Az ertek nevű változóba kezdetnek sztringet tettük, majd egy számértéket.
+Az **any** típus miatt ez megengedett.
 
 ## A void típus
 

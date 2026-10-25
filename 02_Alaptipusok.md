@@ -30,10 +30,16 @@ A TypeScript a következő alaptípusokat tartalmazza:
 
 Egész és valós számokat tárolhatunk vele.
 
+Készítsünk egy number.ts nevű fájlt, majd fordítsuk le. Nézzük meg
+a keletkezett number.js fájlt.
+
 ```typescript
 age: number = 35
 salary: number = 395.3
 ```
+
+A TypeScriptben - mint a JavaScriptben is - nincs külön egész és valós
+számmok tárolására típus.
 
 ## ❖ A string típus
 
@@ -58,6 +64,8 @@ visibleText: boolean = false
 
 Szándékosan hiányzó érték vagy egy objektum-hivatkozás hiányát jelöli.
 
+A következő kódot írjuk egy .ts fájlba, majd fordítsuk JavaScript-re.
+
 ```typescript
 //Alapértelmezetten null érték:
 let felhasznaloNev: string | null = null
@@ -69,14 +77,20 @@ felhasznaloNev = "Anna"
 felhasznaloNev = null
 ```
 
+Nézzük meg az elkészült JavaSCript kódot.
+
 ## ❖ Az undefined típus
 
 A változó már létrejött, de még nem defináltuk az értéket.
+
+_undef.ts_:
 
 ```typescript
 let cim: string | undefined //még nincs értéke
 let toroltAdat: string | null = null //Szándéosan kiűrítve/nincs adat
 ```
+
+Nézzük meg, milyen JavaScript kódra fordul.
 
 ## A bigint típus
 

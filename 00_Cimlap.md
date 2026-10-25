@@ -30,6 +30,9 @@ Verzió: 0.9.1 | Frissítve: 2026. október
 Angular tanulmányok előtt érdmes átnézni, főleg a fontosnak
 jelölt fejezeteket.
 
+A leírásokban található kódokat mind próbáljuk ki, és ellenőrizzük
+milyen JavaScript kódot eredményez a fordítás.
+
 # Jelölés {-}
 
 Az egyes fejezetek címe előtt ha fontoságot egy ❖ karakter jelöli.
