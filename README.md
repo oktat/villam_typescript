@@ -19,5 +19,19 @@ make
 Például Windowson a winget segítségével:
 
 ```cmd
+winget install ezwinports.make
+```
+
+vagy:
+
+```cmd
 winget install -i MSYS2.MSYS2
+```
+
+Utóbbi komplexebb lehetőségeket biztosít (bash, gcc stb.).
+
+Ellenőrzés:
+
+```cmd
+make --version
 ```
