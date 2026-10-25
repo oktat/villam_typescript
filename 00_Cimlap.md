@@ -18,7 +18,7 @@ szerint terjeszthető.
 
 \vspace{0.5cm}
 
-Verzió: 0.9.0 | Frissítve: 2026. október
+Verzió: 0.9.1 | Frissítve: 2026. október
 
 \newpage
 \tableofcontents
