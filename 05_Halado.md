@@ -37,7 +37,7 @@ id = 42
 
 ## Az Intersection típus
 
-Az & karater segítségével két típust megadok. 
+Az & karater segítségével két típust megadok.
 
 ```typescript
 type Szemely = { nev: string }
